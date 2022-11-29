@@ -1,4 +1,6 @@
-###### ncarter17.github.io
+##### GEO 560: GIScience I: Introduction to Geographic Information Science
+##### Nathaniel Carter 
+
 # GIS Application in Mining & Geology 
 
 Welcome to a website that is dedicated to articles that focus on GIS in Mining and Geology. I hope these references help with the applciation of different geologic, geophysical, or other methods to GIS.
@@ -76,4 +78,14 @@ Geologic mapping is useful for mapping rock units. This allows for interpretatio
    The author focuses on the application of remoting sensing with the application of GIS to help with mapping underground water ways. The factors that influence groundwater movement is geology, lineaments, drainage, slope, and  geomorphology. The rock types deposited can influence structures such as weathering, jointing, fractures, or even faults. The lineaments are found using remote sensing analysis. The focus is to determine linear features. The drainage is focused on the runoff density in the area. The slope angle can affect the rate that the water is able to percolate into the ground. The Geomorphology focuses on the features of the area and elevation profile of the area. The Geomorphology is found using remote sensing data. All the data gathered from the factors are inputted into a spatial database. This can be done through scanning, topography building, assigning attributes, and buffering to build a map. Each factor map can all affect the path of groundwater. GIS can use the raster calculation function to be applied to each factor to provide a weights to the information. The results can then be combined to create one map with all features. 
 
    Groundwater movement is a large concern in the mining industry. Mining pits must be dewatered. This can be done in a variety of ways, using pumps, redirecting streams, redirecting groundwater. In the location that I currently work the use of traditional methods have yielded no results. Being able to apply remote sensing data in GIS could help the mining team find the larger underground waterways to allow for better water diversion. 
+   
+   
+ 
+ 
+# Please send any Comments/Questions to: 
+
+###### cartnath@oregonstate.edu 
+
+   
+   
 	
