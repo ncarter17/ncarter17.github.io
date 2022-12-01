@@ -61,6 +61,14 @@ Geologic mapping is useful for mapping rock units. This allows for interpretatio
    3D modeling is important for calculating reserves, mine planning and development, and for providing information for future land acquisitions. In application this might not be the most in-depth model. In my position, while running a drilling campaign being able to create a rough model from the information, we are getting in real time would help with decision making on which boreholes to drill when budgets are tight.
 
 
+###### Digital Revolution in Geologic Mapping: 
+
+   Whitmeyer, Steven J., et al. The Digital Revolution in Geologic Mapping - Researchgate. https://www.researchgate.net/profile/Declan-De-Paor/publication/250948952_The_digital_revolution_in_geologic_mapping/links/585a7d8f08ae64cb3d4abe10/The-digital-revolution-in-geologic-mapping.pdf. 
+
+   The author provides a background of geologic mapping before going into the new technological advancements. The geologic mapping of the past took many hours in the field, followed by many hours creating a nice-looking map. The first advancements were cheaper and smaller computer systems, GPS units, and other resources. The author is focused on the implementation of digital mapping in the field. Digital mapping can be done at different price points, from a few hundred to a few thousand dollars. ArcGIS provides the ability to create 3D renderings. ArcGIS provides great results but can come with complications for novice users. Another option to create maps is Google Earth. Google Earth is great for providing two dimensional views. Google Earth can be used to create 3D maps using techniques to create overlays that can be placed over the 3D terrain. To create 3D models, another Google tool must be used known as SketchUp and imported into Google Earth.
+  
+   The implementation of mapping via tablets can create a better workflow with less errors. Being able to apply GPS data to locations provides accurate information. The use of ArcGIS in the field would be beneficial to provide rock face mapping in the field with accurate locations. This would allow for small scale geologic structures to be mapped accurate. This would be helpful for preventing hazards in mining or day to day operation.
+
 
 
 
@@ -128,6 +136,56 @@ Chen, Wei, et al. “Prioritization of Landslide Conditioning Factors and Its Sp
    The author focuses on the concentration of heavy metals in surface water surrounding coal mining areas in India. The area is known for monsoons during 4 months of the year. The authors sampled 14 sites before monsoon season and 14 after monsoon season. Lab work and proper chain of custody was complete. The data was then inputted into GIS and mapped using a spatial distribution function to create a map.  Statistical analysis was applied using a paired t-test. The results showed a statistically significant concentration of metals pre-monsoon. The average heavy metal pollution index was calculated using the mean concentration values. All the analysis could be plotted using ArcGIS.
    
    Water pollution is regulated heavily from the EPA. Mining activities discharge water in production and excavation of the materials. Water sampling is an important part of ensuring natural and acceptable contamination levels. Creating maps allows for easy viewing and tracking of the sampling results. GIS also allows for the storage of the information easily. The use of both visual representations and statistical analysis allow the companies to ensure communities are unaffected by the companies methods. 
+
+###### Intelligent Mine Design
+
+   Liu, Hui., et al. “A GIS Based Unsteady Network Model and System Applications for Intelligent Mine Ventilation.” Discrete Dynamics in Nature and Society, Hindawi, 28 Oct. 2020, https://www.hindawi.com/journals/ddns/2020/1041927/.
+   
+   Mine ventilation is important for the safety of mining personal. The many different programs using GIS or AutoCAD have been developed for creating efficient ventilation systems. Since GIS can handle spatial data with greater ease, it is the preferred program. The first method for creating the model is mathematics, were given the factor of length, area, ventilating resistance, and pressures, a simple design can be created. A second method using matrices can provide a more in-depth calculation and results. The author focuses on a new system created to design ventilation called 3D VentCloud. The program uses GIS databases and the one of the mathematical formulas to create a model. From this a map can be shown with the proposed design to view interactions. From this, the model can be test using various airflow conditions to create a heatmap style map to represent good to poor airflows.
+
+   I currently do not work underground it, is not of the upmost concern for my day-to-day. I have had the pleasure of visiting a few underground mining operations. Since I interact with underground operations, it is always helpful to be able to provide feedback to the sites when visiting to ensure safety of the operation.
+
+###### Mining Hazards
+
+   Wang, Qinjun, et al. “Application of Remote Sensing for Investigating Mining Geological Hazards.” Taylor & Francis, https://www.tandfonline.com/doi/full/10.1080/17538947.2011.629009. 
+   
+   The author chose a study area near Beijing, China. The use of the GeoEye-1 satellite was used to collect information on the area of study. The first method of analysis used the application of remote sensing. A normalized difference vegetation index was calculated by using a pixel value near infrared band minus the pixel value in the red band divided by the pixel value near infrared band plus the pixel value in the red band. A principal component analysis created a color transformation to create a false color image. These images can be created using GIS. Using this new map, an interpretation of the hazards was created. Logistic regression was used to try to find the probability of each potential hazard.
+
+   Safety is a core value in mining and industry. In mining, being able to predict hazards can help save lives. Mapping hazards allows for visual interpretation and prevention. The use of statistics such a principal component analysis and logistic regression can provide probability of different hazards. The probability of removing all hazards is nearly impossible, but addressing the major hazards can help with saving lives.
+
+###### Mine Haulage Tracking Underground
+
+   Baek, Jieun, et al. “BBUNS: Bluetooth Beacon-Based Underground Navigation System to Support Mine Haulage Operations.” MDPI, Multidisciplinary Digital Publishing Institute, 21 Nov. 2017, https://www.mdpi.com/2075-163X/7/11/228. 
+
+   Mining efficiency is important for cost savings. The use of GIS with other Bluetooth tools can help improve efficiency. The steps to implement the tracking start with is a 3D design of the operation in GIS. Then if using Bluetooth to track trucks, the beacons should be installed on the haul roads to ensure maximum coverage. In this study the travel time of the trucks was the focus. The routes for the trucks were designed using Dijkstra’s algorithm. The algorithm creates a value for each proposed segment of travel, then each routes value is totaled, and the route with the smallest value is selected. The selected haul route is displayed for the driver in 2D or 3D. 
+
+   Minimizing run time and emissions is a big push in current day mining. The application of GIS with my background in data analytics and geology I find this interesting. Where I currently work, these new methods are just now being applied. Being able to help design the methodology and improve run time and emissions would be great. 
+
+###### GIS and Database Management for Mining Exploration
+
+   Didero , Jonas, et al. “GIS and Database Management for Mining Exploration.” IntechOpen, IntechOpen, 10 Sept. 2022, https://www.intechopen.com/online-first/83526. 
+   
+   The author is focuses on the application of GIS and the importance of database management for smooth operations. The application of GIS can be applied to exploration, mine design, mapping, and geologic modeling. The author explains the fundamentals of GIS and two types of data: vector and raster. To develop maps for mine planning, maps of geology, lab analysis, terrain, etc. can be combined into one map. The database portion is helpful for determining the users, and what data needs to be stored. This allows for operations to develop a workflow for consistency. The workflow is important to develop before getting super deep in the analysis. 
+   
+   I find this to be help for the eventually development of workflows. Being able to create various layers would help with looking at both geology, structure, and analysis all in one software. Also the structure of data storage is important to ensure data can be found later. GIS can help provide a quick analysis of future drillhole planning and could be easy to update during a campaign. This would allow me to allocate resources (money, people, drillholes) in places they will have the greatest impact. 
+
+###### Stockpile Analysis in GIS 
+
+   Jordan, David L. “Conceptual Regrading Using Three-Dimensional GIS to Evaluate Mine Reclamation.” Directions Magazine - GIS News and Geospatial, https://www.directionsmag.com/article/3905. 
+
+   The focus of the article, is to cover the methods for calculating stockpiles in GIS. ArcView GIS allows for 3D analysis of data and other factors such as elevations. This allows for calculating volumes based on distances. An updated version has also been released called ArcView GIS 3.2. It allows for similar calculations with faster speeds. Factors such as stability of the material can be included in the GIS analysis. 
+
+   This is helpful for mining application. The ability to have chemical analysis of waste from the production could provide for reprocessing of the material. Stability is also important. Geotechnical analysis included with stockpile calculations in one place could prove to be helpful. Production stockpile calculations are important for stakeholders, and mining operations. 
+
+###### Blasting analysis using GIS 
+
+   Chi , Xiuwen, et al. Judgment and Evaluation System of 3D-Suface Blasting Based on GIS. https://www.researchgate.net/publication/224172547_Judgment_and_evaluation_system_of_3D-suface_blasting_based_on_GIS. 
+   
+   Blasting analysis can help provide more efficient and safer blasts. Blasting analysis can be done through Digital Mining or Digital Blasting. GIS can be used to evaluate the blast holes, blasting vibration, and  air-overpressure to name a few. A 3D-BIJS was created using a .Net and ArcGIS. The 3D-BIJS is composed of maps and images combined and analyzed using GIS to provide a judgement system. The judgement system can be used to look at statistics, spatial data, and simulations of blast. The calculation of shock waves can be calculated using data from blasting and mapped to provide where someone would be safe from high volumes. A similar calculation can be done and mapped for ground vibrations. Another calculation of interested would be cost of transportation. This is important to ensure the fastest, safest, and cost-effective routes. 
+   
+   Blasting is common in most hard rock mining operations. Being able to blast safely is most important. Being able to calculate safe distance for both humans and equipment is essential to the operation. The application of the 3D-BIJS can be used for this. The statistics gained form this analysis could also yield for better blasting efficiency, which would result in cost savings. 
+
+
 
 
 
