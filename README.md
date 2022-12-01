@@ -93,7 +93,6 @@ https://www.mdpi.com/2220-9964/10/5/332
 
    Groundwater movement is a large concern in the mining industry. Mining pits must be dewatered. This can be done in a variety of ways, using pumps, redirecting streams, redirecting groundwater. In the location that I currently work the use of traditional methods have yielded no results. Being able to apply remote sensing data in GIS could help the mining team find the larger underground waterways to allow for better water diversion. 
    
- 
 ###### Remediation and Biodiversity
  
    Antwi, Effah Kwabena, et al. “Detecting the Effect of Disturbance on Habitat Diversity and Land Cover Change in a Post-Mining Area Using GIS.” Landscape and Urban Planning, vol. 87, no. 1, 2008, pp. 22–32., https://doi.org/10.1016/j.landurbplan.2008.03.009. 
